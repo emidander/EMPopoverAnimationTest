@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1AB3311847ECDA00F8AE87 /* EMBounceTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AB3301847ECDA00F8AE87 /* EMBounceTransitioning.m */; };
+		4E2561EE1847DFA8005875F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2561ED1847DFA8005875F4 /* UIKit.framework */; };
+		4E2561F01847DFA8005875F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2561EF1847DFA8005875F4 /* Foundation.framework */; };
+		4E2561F21847DFA8005875F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2561F11847DFA8005875F4 /* CoreGraphics.framework */; };
+		4E2561F81847DFA8005875F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E2561F61847DFA8005875F4 /* InfoPlist.strings */; };
+		4E2561FA1847DFA8005875F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2561F91847DFA8005875F4 /* main.m */; };
+		4E2561FE1847DFA8005875F4 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2561FD1847DFA8005875F4 /* EMAppDelegate.m */; };
+		4E2562001847DFA8005875F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2561FF1847DFA8005875F4 /* Default.png */; };
+		4E2562021847DFA8005875F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2562011847DFA8005875F4 /* Default@2x.png */; };
+		4E2562041847DFA8005875F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2562031847DFA8005875F4 /* Default-568h@2x.png */; };
+		4E2562071847DFA8005875F4 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2562061847DFA8005875F4 /* EMViewController.m */; };
+		4E2562151847E38A005875F4 /* EMPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2562141847E38A005875F4 /* EMPopoverViewController.m */; };
+		4E94423A184B933500133B61 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E944239184B933500133B61 /* QuartzCore.framework */; };
+		4E94423D184B9FA800133B61 /* EMFillWithTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E94423C184B9FA800133B61 /* EMFillWithTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E1AB32F1847ECDA00F8AE87 /* EMBounceTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBounceTransitioning.h; sourceTree = "<group>"; };
+		4E1AB3301847ECDA00F8AE87 /* EMBounceTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBounceTransitioning.m; sourceTree = "<group>"; };
+		4E2561EA1847DFA8005875F4 /* EMPopoverAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMPopoverAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2561ED1847DFA8005875F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E2561EF1847DFA8005875F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E2561F11847DFA8005875F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E2561F51847DFA8005875F4 /* EMPopoverAnimationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMPopoverAnimationTest-Info.plist"; sourceTree = "<group>"; };
+		4E2561F71847DFA8005875F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E2561F91847DFA8005875F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E2561FB1847DFA8005875F4 /* EMPopoverAnimationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMPopoverAnimationTest-Prefix.pch"; sourceTree = "<group>"; };
+		4E2561FC1847DFA8005875F4 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		4E2561FD1847DFA8005875F4 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		4E2561FF1847DFA8005875F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4E2562011847DFA8005875F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4E2562031847DFA8005875F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4E2562051847DFA8005875F4 /* EMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
+		4E2562061847DFA8005875F4 /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
+		4E2562131847E38A005875F4 /* EMPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPopoverViewController.h; sourceTree = "<group>"; };
+		4E2562141847E38A005875F4 /* EMPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPopoverViewController.m; sourceTree = "<group>"; };
+		4E944239184B933500133B61 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E94423B184B9FA800133B61 /* EMFillWithTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFillWithTextView.h; sourceTree = "<group>"; };
+		4E94423C184B9FA800133B61 /* EMFillWithTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMFillWithTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E2561E71847DFA8005875F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E94423A184B933500133B61 /* QuartzCore.framework in Frameworks */,
+				4E2561EE1847DFA8005875F4 /* UIKit.framework in Frameworks */,
+				4E2561F01847DFA8005875F4 /* Foundation.framework in Frameworks */,
+				4E2561F21847DFA8005875F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2561E11847DFA8005875F4 = {
+			isa = PBXGroup;
+			children = (
+				4E2561F31847DFA8005875F4 /* EMPopoverAnimationTest */,
+				4E2561EC1847DFA8005875F4 /* Frameworks */,
+				4E2561EB1847DFA8005875F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E2561EB1847DFA8005875F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E2561EA1847DFA8005875F4 /* EMPopoverAnimationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E2561EC1847DFA8005875F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E944239184B933500133B61 /* QuartzCore.framework */,
+				4E2561ED1847DFA8005875F4 /* UIKit.framework */,
+				4E2561EF1847DFA8005875F4 /* Foundation.framework */,
+				4E2561F11847DFA8005875F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E2561F31847DFA8005875F4 /* EMPopoverAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				4E2561FC1847DFA8005875F4 /* EMAppDelegate.h */,
+				4E2561FD1847DFA8005875F4 /* EMAppDelegate.m */,
+				4E2562051847DFA8005875F4 /* EMViewController.h */,
+				4E2562061847DFA8005875F4 /* EMViewController.m */,
+				4E2561F41847DFA8005875F4 /* Supporting Files */,
+				4E2562131847E38A005875F4 /* EMPopoverViewController.h */,
+				4E2562141847E38A005875F4 /* EMPopoverViewController.m */,
+				4E1AB32F1847ECDA00F8AE87 /* EMBounceTransitioning.h */,
+				4E1AB3301847ECDA00F8AE87 /* EMBounceTransitioning.m */,
+				4E94423B184B9FA800133B61 /* EMFillWithTextView.h */,
+				4E94423C184B9FA800133B61 /* EMFillWithTextView.m */,
+			);
+			path = EMPopoverAnimationTest;
+			sourceTree = "<group>";
+		};
+		4E2561F41847DFA8005875F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E2561F51847DFA8005875F4 /* EMPopoverAnimationTest-Info.plist */,
+				4E2561F61847DFA8005875F4 /* InfoPlist.strings */,
+				4E2561F91847DFA8005875F4 /* main.m */,
+				4E2561FB1847DFA8005875F4 /* EMPopoverAnimationTest-Prefix.pch */,
+				4E2561FF1847DFA8005875F4 /* Default.png */,
+				4E2562011847DFA8005875F4 /* Default@2x.png */,
+				4E2562031847DFA8005875F4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E2561E91847DFA8005875F4 /* EMPopoverAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2562101847DFA8005875F4 /* Build configuration list for PBXNativeTarget "EMPopoverAnimationTest" */;
+			buildPhases = (
+				4E2561E61847DFA8005875F4 /* Sources */,
+				4E2561E71847DFA8005875F4 /* Frameworks */,
+				4E2561E81847DFA8005875F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMPopoverAnimationTest;
+			productName = EMPopoverAnimationTest;
+			productReference = 4E2561EA1847DFA8005875F4 /* EMPopoverAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E2561E21847DFA8005875F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Erik Midander";
+			};
+			buildConfigurationList = 4E2561E51847DFA8005875F4 /* Build configuration list for PBXProject "EMPopoverAnimationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E2561E11847DFA8005875F4;
+			productRefGroup = 4E2561EB1847DFA8005875F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E2561E91847DFA8005875F4 /* EMPopoverAnimationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E2561E81847DFA8005875F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2561F81847DFA8005875F4 /* InfoPlist.strings in Resources */,
+				4E2562001847DFA8005875F4 /* Default.png in Resources */,
+				4E2562021847DFA8005875F4 /* Default@2x.png in Resources */,
+				4E2562041847DFA8005875F4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E2561E61847DFA8005875F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2561FA1847DFA8005875F4 /* main.m in Sources */,
+				4E2561FE1847DFA8005875F4 /* EMAppDelegate.m in Sources */,
+				4E94423D184B9FA800133B61 /* EMFillWithTextView.m in Sources */,
+				4E2562071847DFA8005875F4 /* EMViewController.m in Sources */,
+				4E1AB3311847ECDA00F8AE87 /* EMBounceTransitioning.m in Sources */,
+				4E2562151847E38A005875F4 /* EMPopoverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E2561F61847DFA8005875F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2561F71847DFA8005875F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E25620E1847DFA8005875F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E25620F1847DFA8005875F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E2562111847DFA8005875F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMPopoverAnimationTest/EMPopoverAnimationTest-Prefix.pch";
+				INFOPLIST_FILE = "EMPopoverAnimationTest/EMPopoverAnimationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E2562121847DFA8005875F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMPopoverAnimationTest/EMPopoverAnimationTest-Prefix.pch";
+				INFOPLIST_FILE = "EMPopoverAnimationTest/EMPopoverAnimationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E2561E51847DFA8005875F4 /* Build configuration list for PBXProject "EMPopoverAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E25620E1847DFA8005875F4 /* Debug */,
+				4E25620F1847DFA8005875F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2562101847DFA8005875F4 /* Build configuration list for PBXNativeTarget "EMPopoverAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2562111847DFA8005875F4 /* Debug */,
+				4E2562121847DFA8005875F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E2561E21847DFA8005875F4 /* Project object */;
+}
